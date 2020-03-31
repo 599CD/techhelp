@@ -2,6 +2,8 @@
 
 Tech Help Tips
 
+- [Site](https://599cd.github.io/techhelp/)
+
 ---
 
 Microsoft Access TechHelp Browsing and Selecting Files

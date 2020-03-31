@@ -30,7 +30,7 @@
 
         <section class="jumbotron title-container text-center">
             <div>
-                <h1>Tech Help</h1>
+                <h1>599CD Tech Help</h1>
 
                 <div class="row justify-content-md-center">
                     <div class="col-lg-8">
@@ -61,10 +61,13 @@
                                 frameborder="0" 
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                             </iframe> -->
+                            <iframe width="280" height="150" ng-src="{{item.video_id | trusted}}" 
+                                frameborder="0" allowfullscreen></iframe>
                             
                             <div class="card-body">
                                 <h5 class="card-title">{{item.name}}</h5>
                                 <p class="card-text">{{item.publishedDate}}</p>
+                                <p class="card-text">{{item.category}}</p>
                                 <p class="card-text">{{item.description}}</p>
                                 <a ng-href="{{item.link}}" target="_blank" class="btn btn-danger">YouTube Link</a>
                             </div>

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="Tech Help">
+    <meta name="keywords" content="tech, help, techhelp">
+    <meta name="author" content="Alex Hedley">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sticky-footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/jquery-ui.min.css"> -->
+    <link rel="stylesheet" href="css/jquery-ui.1.12.1.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Fonts -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'> -->
+
+    <title>Tech Help</title>
+  </head>
+  <body ng-app="myApp">
+    
+    <!-- Begin page content -->
+    <main role="main" class="container">
+
+        <section class="jumbotron title-container text-center">
+            <div>
+                <h1>Tech Help</h1>
+
+                <div class="row justify-content-md-center">
+                    <div class="col-lg-8">
+                        <div class="input-group search-bar">
+                            <input type="text" class="form-control" ng-model='searchText' placeholder="Search for a video..." aria-label="Search">
+                            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div ng-controller="myController">
+
+            <div class="container">
+                <div class="row">
+                    <div 
+                        ng-repeat="item in items | filter:searchText"
+                        class="col-md-4"
+                        style="margin-bottom: 50px;"
+                    >
+                        <div class="card" style="width: 18rem;">
+                            <!-- <img ng-src="/techhelp/{{item.image}}" class="card-img-top" alt="{{item.name}}"> -->
+                            <!-- <img ng-src="{{item.image}}" class="card-img-top" alt="{{item.name}}"> -->
+                            
+                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/sQaEN_wngSY" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe> -->
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">{{item.name}}</h5>
+                                <p class="card-text">{{item.publishedDate}}</p>
+                                <p class="card-text">{{item.description}}</p>
+                                <a ng-href="{{item.link}}" target="_blank" class="btn btn-danger">YouTube Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted"><a href="https://www.599cd.com/" target="_blank">599CD</a>.</span>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js" ></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- <script src="js/jquery-ui.1.12.1.min.js"></script> -->
+    <!-- <script src="js/popper.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/jquery.pretty-text-diff.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> -->
+    <script src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    </body>
+</html>

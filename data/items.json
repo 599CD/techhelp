@@ -27,5 +27,14 @@
             "category":"Access",
             "publishedDate":"30 Mar 2020"
         }
+        ,{
+            "name":"Microsoft Access String Concatenation, Double Double Quotes, Single Quotes, Dates, Times TechHelp",
+            "description":"In this Microsoft Access tutorial, I'll show you how to use string concatenation to join two fields together in a query, and in a VBA text string. Using quotes, single quotes, double quotes, double-double quotes, can be confusing. We'll try to sort it all out.",
+            "link":"https://youtu.be/V7ciQCuDSUk",
+            "video_id":"V7ciQCuDSUk",
+            "image":"",
+            "category":"Access",
+            "publishedDate":"4 Apr 2020"
+        }
     ]
 }

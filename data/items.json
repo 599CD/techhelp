@@ -36,5 +36,14 @@
             "category":"Access",
             "publishedDate":"4 Apr 2020"
         }
+        ,{
+            "name":"Microsoft Access Round a Number to the Nearest 10, 100, etc. (Rounding)",
+            "description":"In this Microsoft Access tutorial, I'm going to show you how to round any number to the nearest 10, 100, etc. You'll also see how to round up, down, and avoid 'banker's rounding'.",
+            "link":"https://youtu.be/_4yGi65F1GQ",
+            "video_id":"_4yGi65F1GQ",
+            "image":"",
+            "category":"Access",
+            "publishedDate":"16 Apr 2020"
+        }
     ]
 }

@@ -45,5 +45,14 @@
             "category":"Access",
             "publishedDate":"16 Apr 2020"
         }
+        ,{
+            "name":"Microsoft Access ZIP Code Lookup Template - SHORT VERSION - TechHelp",
+            "description":"In this Microsoft Access tutorial, I'm going to show you how to perform a ZIP code lookup. You will be able to enter a ZIP code and have the system return the city and state for that ZIP code (yes, works with most foreign countries too). If it doesn't exist in the database, you will be prompted to add it.",
+            "link":"https://youtu.be/5F6gYW91wBI",
+            "video_id":"5F6gYW91wBI",
+            "image":"",
+            "category":"Access",
+            "publishedDate":"18 Apr 2020"
+        }
     ]
 }

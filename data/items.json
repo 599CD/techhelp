@@ -54,5 +54,23 @@
             "category":"Access",
             "publishedDate":"18 Apr 2020"
         }
+        ,{
+            "name":"Microsoft Access REPLACE Function, Update Query, TechHelp Q&A",
+            "description":"In today's lesson, I'm going to show you how to use the REPLACE function in an Update Query to change data in your tables. Specifically, we have a table with phone numbers in a bunch of random formats like: 716-555-4444, (716)999-3333, 239.444.3333, and so on. This lesson will show you how to make them all uniform like 2395551212.",
+            "link":"https://youtu.be/4BqC368pjv8",
+            "video_id":"4BqC368pjv8",
+            "image":"",
+            "category":"Access",
+            "publishedDate":"3 May 2020"
+        }
+        ,{
+            "name":"Microsoft Access Record Source Property",
+            "description":"In this lesson, I'm going to teach you how to change the Record Source property of a form so you can switch the table it's based on, or even change it to a query.",
+            "link":"https://youtu.be/4xQa_74htxs",
+            "video_id":"4xQa_74htxs",
+            "image":"",
+            "category":"Access",
+            "publishedDate":"18 May 2020"
+        }
     ]
 }

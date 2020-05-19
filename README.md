@@ -6,7 +6,13 @@ Tech Help Tips
 
 ---
 
-Microsoft Access TechHelp Browsing and Selecting Files
+**Microsoft Access TechHelp Q&A**
+
+- [Playlist](https://www.youtube.com/watch?v=4xQa_74htxs&list=PLhKFRV3-UgpfrxjpNFoJe1ka7ogNQ-lVB)
+
+---
+
+**Microsoft Access TechHelp Browsing and Selecting Files**
 
 Published on 23 Mar 2020
 
@@ -16,7 +22,7 @@ https://youtu.be/MrLfvNOg3d0
 
 ---
 
-Microsoft Access TechHelp Sorted Combo Box
+**Microsoft Access TechHelp Sorted Combo Box**
 
 Published on 26 Mar 2020
 
@@ -26,7 +32,7 @@ https://youtu.be/MDnAGHpWr6o
 
 ---
 
-Microsoft Access Number of Days Between Two Dates - DATEDIFF Function - TechHelp
+**Microsoft Access Number of Days Between Two Dates - DATEDIFF Function - TechHelp**
 
 Published on 30 Mar 2020
 
@@ -34,12 +40,32 @@ In this Microsoft Access tutorial, I'll show you how to calculate the number of 
 
 https://youtu.be/sQaEN_wngSY
 
-—-
+—--
 
-Microsoft Access String Concatenation, Double Double Quotes, Single Quotes, Dates, Times TechHelp
+**Microsoft Access String Concatenation, Double Double Quotes, Single Quotes, Dates, Times TechHelp**
 
 Published on 4 Apr 2020
 
 In this Microsoft Access tutorial, I’ll show you how to use string concatenation to join two fields together in a query, and in a VBA text string. Using quotes, single quotes, double quotes, double-double quotes, can be confusing. We’ll try to sort it all out.
 
 https://youtu.be/V7ciQCuDSUk
+
+---
+
+**Microsoft Access Round a Number to the Nearest 10, 100, etc. (Rounding)**
+
+Published on 16 Apr 2020
+
+In this Microsoft Access tutorial, I'm going to show you how to round any number to the nearest 10, 100, etc. You'll also see how to round up, down, and avoid "banker's rounding."
+
+https://youtu.be/_4yGi65F1GQ
+
+---
+
+**Microsoft Access REPLACE Function, Update Query, TechHelp Q&A**
+
+Published on 3 May 2020
+
+In today's lesson, I'm going to show you how to use the REPLACE function in an Update Query to change data in your tables. Specifically, we have a table with phone numbers in a bunch of random formats like: 716-555-4444, (716)999-3333, 239.444.3333, and so on. This lesson will show you how to make them all uniform like 2395551212.
+
+https://youtu.be/4BqC368pjv8
